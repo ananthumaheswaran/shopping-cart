@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply flex  min-h-screen w-screen;
+}
+
+/* NavBar component styles */
+
+.navbar-container {
+  @apply flex items-center justify-between w-screen h-28 text-gray-700 font-bold text-2xl p-14 bg-yellow-50;
+}
+
+.titile-block {
+  @apply flex items-center;
+}
+
+.nav-block {
+  @apply flex items-center justify-center text-xl;
+}
+
+.nav-list {
+  @apply flex items-center justify-between;
+}
+
+.nav-list-item {
+  @apply pr-5 text-lg;
+}
+
+.cart-icon {
+  @apply flex items-center;
+}
