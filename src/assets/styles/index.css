@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 body {
-  @apply flex  min-h-screen w-screen;
+  @apply min-w-[280px] min-h-[100vh] m-0 p-0 select-none;
 }
 
 /* NavBar component styles */
 
 .navbar-container {
-  @apply flex items-center justify-between w-screen h-28 text-gray-700 font-bold text-2xl p-14 bg-yellow-50;
+  @apply fixed flex items-center justify-between w-full h-16 px-14 text-gray-700 font-bold text-2xl  bg-blue-50;
 }
 
 .titile-block {
@@ -25,9 +25,30 @@ body {
 }
 
 .nav-list-item {
-  @apply pr-5 text-lg;
+  @apply pr-5 text-base;
 }
 
 .cart-icon {
   @apply flex items-center;
 }
+
+/* HomePage styles */
+
+.home-image-container {
+  /* @apply flex items-center justify-between w-full h-16 px-14 text-gray-700 font-bold text-2xl  bg-blue-50; */
+
+  @apply flex items-start flex-col justify-center w-full  bg-img bg-cover  bg-opacity-75 h-[780px] p-16;
+}
+.title-name {
+  @apply font-bold text-5xl text-gray-800  py-3 my-5 mx-8;
+}
+
+.title-para {
+  @apply text-gray-700 mx-8;
+}
+.btn-shop {
+  @apply px-10 py-3 m-10 border-2 rounded-md;
+}
+/* .home-image {
+  @apply w-screen h-full  object-cover;
+} */
