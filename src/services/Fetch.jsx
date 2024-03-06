@@ -6,22 +6,6 @@ const Fetch = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  //   useEffect(() => {
-  //     fetch("https://fakestoreapi.com/products")
-  //       .then((response) => {
-  //         if (response.status >= 400) {
-  //           throw new Error("server error");
-  //         }
-  //         return response.json();
-  //       })
-  //       .then((response) => setProducts(response))
-  //       .catch((error) => setError(error))
-  //       .finally(() => setLoading(false));
-  //   }, []);
-
-  //   if (error) return <p>A network error was encountered</p>;
-  //   if (loading) return <p>Loading...</p>;
-
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
       .then((response) => {
