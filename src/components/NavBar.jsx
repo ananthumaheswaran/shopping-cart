@@ -14,7 +14,6 @@ const NavBar = () => {
             <li className="nav-list-item">About Us</li>
           </ul>
         </nav>
-        {/* <div className="search-bar"> </div> */}
         <div className="cart-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
