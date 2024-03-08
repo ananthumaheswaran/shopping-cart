@@ -1,11 +1,10 @@
-import FeaturedProducts from "../components/FeaturedProducts";
+import { Link } from "react-router-dom";
 import NavBar from "../components/NavBar";
 
 const HomePage = () => {
   return (
     <>
       <NavBar />
-
       <div className="home-image-container">
         <h1 className="title-name">FakeStore</h1>
         <p className="title-para">
@@ -16,9 +15,10 @@ const HomePage = () => {
           <br />
           ideal for practicing web development and API integration.
         </p>
-        <button className="btn-shop">Shop</button>
+        <button className="btn-shop">
+          <Link to="shop">Shop</Link>
+        </button>
       </div>
-      <FeaturedProducts />
     </>
   );
 };
