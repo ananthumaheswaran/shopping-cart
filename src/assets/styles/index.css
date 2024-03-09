@@ -34,7 +34,9 @@ body {
 
 /* HomePage styles */
 
-.home-image-container {
+/* Section One */
+
+.home-section-one {
   /* @apply flex items-center justify-between w-full h-16 px-14 text-gray-700 font-bold text-2xl  bg-blue-50; */
 
   @apply flex items-start flex-col justify-center w-full  bg-img bg-cover  bg-opacity-75 h-[780px] p-16;
@@ -46,9 +48,15 @@ body {
 .title-para {
   @apply text-gray-700 mx-8;
 }
-.btn-shop {
-  @apply px-10 py-3 m-10 border-2 rounded-md;
+.btn-container {
+  @apply m-10;
 }
-/* .home-image {
-  @apply w-screen h-full  object-cover;
-} */
+.btn-shop {
+  @apply px-10 py-3  border-2 rounded-md;
+}
+
+/* Section Two */
+
+.home-section-two {
+  @apply flex items-center  justify-center w-full bg-gradient-to-br from-slate-100 via-slate-200 to-slate-100 h-[300px];
+}
