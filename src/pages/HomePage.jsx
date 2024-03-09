@@ -5,7 +5,7 @@ const HomePage = () => {
   return (
     <>
       <NavBar />
-      <div className="home-image-container">
+      <div className="home-section-one">
         <h1 className="title-name">FakeStore</h1>
         <p className="title-para">
           A fictional online store showcasing diverse products with fake data
@@ -15,9 +15,15 @@ const HomePage = () => {
           <br />
           ideal for practicing web development and API integration.
         </p>
-        <button className="btn-shop">
-          <Link to="shop">Shop</Link>
-        </button>
+        <div className="btn-container">
+          <Link to="shop">
+            <button className="btn-shop">Shop</button>
+          </Link>
+        </div>
+      </div>
+
+      <div className="home-section-two">
+        <h1>Today's Fake Deals</h1>
       </div>
     </>
   );
