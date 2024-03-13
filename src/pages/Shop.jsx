@@ -1,9 +1,13 @@
 import FeaturedProducts from "../components/FeaturedProducts";
+import NavBar from "../components/NavBar";
 
 const Shop = () => {
   return (
     <>
-      <FeaturedProducts />
+      <NavBar />
+      <div className="shop-page-section-two">
+        <FeaturedProducts />
+      </div>
     </>
   );
 };
