@@ -55,12 +55,15 @@ const Fetch = () => {
         {products.map((product) => (
           <div className="product-card">
             <div key={product.id}>
-              <img
-                src={product.image}
-                alt={product.title}
-                className="product-images"
-              />
-              <div className="product-details">
+              <div className="product-images-container">
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  className="product-images"
+                />
+              </div>
+
+              <div className="product-details-container">
                 <p className="product-title">{product.title}</p>
                 {/* <p>{product.description}</p> */}
                 <p className="product-price">${product.price}</p>
