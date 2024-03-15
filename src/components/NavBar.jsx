@@ -1,15 +1,19 @@
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
   return (
     <>
       <div className="navbar-container">
         <header className="title-block">
-          <h1>FakeStore</h1>
+          <Link to="/">
+            <h1>FakeStore</h1>
+          </Link>
         </header>
         <nav className="nav-block">
           <ul className="nav-list">
             <li className="nav-list-item">Men</li>
             <li className="nav-list-item">Women</li>
-            <li className="nav-list-item">Accessories</li>
+            <li className="nav-list-item">Jewellery</li>
             <li className="nav-list-item">Electronics</li>
             <li className="nav-list-item">Shop</li>
             <li className="nav-list-item">About Us</li>
