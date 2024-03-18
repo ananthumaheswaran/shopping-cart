@@ -52,7 +52,7 @@ body {
   @apply flex items-center justify-center m-6 h-10 w-36;
 }
 .btn-shop {
-  @apply h-11 w-28 hover:h-12 hover:w-32 shadow-2xl bg-yellow-800 text-white rounded-sm font-semibold hover:text-xl;
+  @apply shadow-2xl bg-yellow-800 text-white rounded-md font-semibold h-11 w-28 hover:h-12 hover:w-32 hover:text-lg;
 }
 
 /* Section Two */
