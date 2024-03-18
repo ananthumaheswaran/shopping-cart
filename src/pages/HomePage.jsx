@@ -17,7 +17,7 @@ const HomePage = () => {
         </p>
         <div className="btn-container">
           <Link to="shop">
-            <button className="btn-shop">Shop</button>
+            <button className="btn-shop">SHOP</button>
           </Link>
         </div>
       </div>
