@@ -49,10 +49,10 @@ body {
   @apply text-gray-700 mx-8;
 }
 .btn-container {
-  @apply m-10;
+  @apply flex items-center justify-center my-8 mx-24 h-12 w-6;
 }
 .btn-shop {
-  @apply px-10 py-3  border-2 rounded-md;
+  @apply px-10 py-3 shadow-xl hover:px-11 hover:py-4 bg-yellow-600 text-white rounded-lg font-bold hover:text-xl;
 }
 
 /* Section Two */
