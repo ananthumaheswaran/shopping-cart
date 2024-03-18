@@ -24,6 +24,7 @@ const HomePage = () => {
 
       <div className="home-section-two">
         <h1>Today's Fake Deals</h1>
+        <div className="featuredProducts-container"></div>
       </div>
     </>
   );
