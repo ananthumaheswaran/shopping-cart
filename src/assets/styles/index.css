@@ -35,7 +35,7 @@ body {
 
 /* Section One */
 .home-section-one {
-  @apply flex items-start flex-col justify-center mx-2 will-change-scroll mt-16 rounded-xl bg-img bg-cover h-[780px] p-16;
+  @apply flex items-start flex-col justify-center will-change-scroll mt-16 border-y-2 border-yellow-600 bg-img bg-cover h-[780px] p-16;
 }
 .title-name {
   @apply font-bold text-5xl text-gray-800  py-3 my-5 mx-8;
@@ -53,7 +53,11 @@ body {
 
 /* Section Two */
 .home-section-two {
-  @apply flex items-center justify-center  bg-blue-50 h-[300px];
+  @apply flex items-center justify-center bg-blue-50 h-[300px];
+}
+
+.section-two-heading {
+  @apply font-bold text-3xl;
 }
 
 /* Product card */
