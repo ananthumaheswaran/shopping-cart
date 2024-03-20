@@ -1,4 +1,4 @@
-import FeaturedProducts from "../components/FeaturedProducts";
+import Products from "../components/Products";
 import NavBar from "../components/NavBar";
 
 const Shop = () => {
@@ -6,7 +6,7 @@ const Shop = () => {
     <>
       <NavBar />
       <div className="shop-page-section-two">
-        <FeaturedProducts />
+        <Products />
       </div>
     </>
   );
