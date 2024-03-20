@@ -88,7 +88,16 @@ body {
 }
 
 /* Shop Page */
-
 .shop-page-section-two {
   @apply pt-16;
+}
+
+/* Loading screen */
+.loading-screen-icon {
+  @apply flex items-center justify-center p-96;
+}
+
+/* Error message */
+.error-message {
+  @apply flex items-center justify-center;
 }
