@@ -1,5 +1,5 @@
-import Products from "../components/Products";
-import NavBar from "../components/NavBar";
+import Products from "../../components/Products";
+import NavBar from "../../components/NavBar";
 
 const AllProducts = () => {
   return (
