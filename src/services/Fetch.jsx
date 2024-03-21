@@ -7,8 +7,10 @@ const Fetch = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
+  let url = "https://fakestoreapi.com/products";
+
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products")
+    fetch(url)
       .then((response) => {
         if (!response.ok) {
           throw new Error("server error");
@@ -63,6 +65,7 @@ const Fetch = () => {
             <div className="product-details-container">
               <p className="product-title">{product.title}</p>
               <p className="product-price">${product.price}</p>
+              <p className="text-xs">⭐⭐⭐⭐⭐</p>
             </div>
           </div>
         ))}
