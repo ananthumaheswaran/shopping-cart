@@ -8,7 +8,7 @@ body {
 
 /* NavBar component styles */
 .navbar-container {
-  @apply top-0 fixed flex items-center justify-between w-full h-16 px-14 text-gray-700 font-bold text-2xl bg-blue-50;
+  @apply top-0 fixed flex items-center justify-between w-full h-16 px-14 text-gray-700 font-bold text-2xl bg-blue-50 shadow-md;
 }
 
 .titile-block {
@@ -35,7 +35,7 @@ body {
 
 /* Section One */
 .home-section-one {
-  @apply flex items-start flex-col justify-center will-change-scroll mt-16 border-y-2 border-yellow-600 bg-img bg-cover h-[780px] p-16;
+  @apply flex items-start flex-col justify-center will-change-scroll mt-16 shadow-md bg-img bg-cover h-[780px] p-16;
 }
 .title-name {
   @apply font-bold text-5xl text-gray-800  py-3 my-5 mx-8;
@@ -69,18 +69,18 @@ body {
   @apply flex items-center justify-center flex-wrap;
 }
 
-.product-details {
+.product-details-container {
   @apply flex items-center overflow-hidden justify-center flex-col text-center text-sm py-3;
 }
 .product-images-container {
-  @apply flex items-center justify-center mx-10 mb-5 h-[120px] w-[150px];
+  @apply flex items-center justify-center mx-10 mb-2 h-[180px] w-[180px];
 }
 .product-images {
-  @apply flex items-center justify-center h-[115px] w-[90px];
+  @apply flex items-center justify-center;
 }
 
 .product-title {
-  @apply flex items-center text-center justify-center text-sm;
+  @apply text-center text-sm overflow-hidden h-10;
 }
 
 .product-price {
