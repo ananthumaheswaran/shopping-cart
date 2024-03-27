@@ -11,11 +11,15 @@ const NavBar = () => {
         </header>
         <nav className="nav-block">
           <ul className="nav-list">
-            <li className="nav-list-item">Men</li>
+            <Link to="shop/men">
+              <li className="nav-list-item">Men</li>
+            </Link>
             <li className="nav-list-item">Women</li>
             <li className="nav-list-item">Jewellery</li>
             <li className="nav-list-item">Electronics</li>
-            <li className="nav-list-item">Shop</li>
+            <Link to="shop/allproducts">
+              <li className="nav-list-item">Shop</li>
+            </Link>
             <li className="nav-list-item">About Us</li>
           </ul>
         </nav>
