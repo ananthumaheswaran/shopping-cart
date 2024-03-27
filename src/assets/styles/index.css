@@ -88,7 +88,7 @@ body {
 }
 
 /* Shop Page */
-.shop-page-section-two {
+.productPage {
   @apply pt-16;
 }
 
@@ -99,5 +99,9 @@ body {
 
 /* Error message */
 .error-message {
-  @apply flex items-center justify-center;
+  @apply flex items-center flex-col justify-center p-96;
+}
+
+.returnLinkToHomepage {
+  @apply px-5 py-2 flex items-center bg-blue-300 rounded-3xl m-5 hover:text-lg hover:font-semibold hover:text-white;
 }
