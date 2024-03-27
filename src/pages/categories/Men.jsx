@@ -1,5 +1,12 @@
+import Products from "../../components/Products";
 const Men = () => {
-  return <div>Men</div>;
+  return (
+    <div>
+      <div className="productPage">
+        <Products />
+      </div>
+    </div>
+  );
 };
 
 export default Men;
