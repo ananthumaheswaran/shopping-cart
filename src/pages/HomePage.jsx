@@ -16,7 +16,7 @@ const HomePage = () => {
           ideal for practicing web development and API integration.
         </p>
         <div className="btn-container">
-          <Link to="shop">
+          <Link to="shop/allproducts">
             <button className="btn-shop">Shop</button>
           </Link>
         </div>
