@@ -1,7 +1,7 @@
 import Fetch from "../services/Fetch";
 const Products = () => {
   return (
-    <div>
+    <div className="productPage">
       <Fetch />
     </div>
   );
