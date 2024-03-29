@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        img: "url('./src/assets/images/medium-shot-young-woman-with-smartphone.jpg')",
+        img1: "url('./src/assets/images/medium-shot-young-woman-with-smartphone.jpg')",
+        img2: "url('./src/assets/images/yellow-van-shipping.jpg')",
       }),
     },
   },
