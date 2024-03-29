@@ -8,25 +8,20 @@ body {
 
 /* NavBar component styles */
 .navbar-container {
-  @apply top-0 fixed flex items-center justify-between w-full h-16 px-14 text-gray-700 font-bold text-2xl bg-blue-50 shadow-md;
+  @apply top-0 fixed flex items-center justify-between w-full h-16 px-14 text-gray-800 font-bold text-2xl bg-blue-50 shadow-md;
 }
-
 .titile-block {
   @apply flex items-center;
 }
-
 .nav-block {
   @apply flex items-center justify-center text-xl;
 }
-
 .nav-list {
   @apply flex items-center justify-between;
 }
-
 .nav-list-item {
   @apply pr-5 text-base;
 }
-
 .cart-icon {
   @apply flex items-center;
 }
@@ -35,12 +30,11 @@ body {
 
 /* Section One */
 .home-section-one {
-  @apply flex items-start flex-col justify-center will-change-scroll mt-16 shadow-md bg-img bg-cover h-[780px] p-16;
+  @apply flex items-start flex-col justify-center will-change-scroll mt-16 shadow-md bg-img1 bg-cover h-[780px] p-16;
 }
 .title-name {
   @apply font-bold text-5xl text-gray-800  py-3 my-5 mx-8;
 }
-
 .title-para {
   @apply text-gray-700 mx-8;
 }
@@ -48,16 +42,30 @@ body {
   @apply flex items-center justify-center m-6 h-10 w-36;
 }
 .btn-shop {
-  @apply shadow-2xl bg-yellow-500 text-white rounded-md font-semibold h-11 w-28 hover:h-12 hover:w-32 hover:text-lg cursor-pointer;
+  @apply uppercase shadow-2xl bg-yellow-500 text-white rounded-md font-bold h-11 w-28 hover:h-12 hover:w-32 hover:text-lg cursor-pointer;
 }
 
 /* Section Two */
 .home-section-two {
-  @apply flex items-center justify-center bg-blue-50 h-[300px];
+  @apply flex items-center flex-col  justify-center bg-blue-50;
+}
+.section-two-heading {
+  @apply font-bold uppercase text-3xl py-10 text-gray-800;
+}
+.featuredProducts-container {
+  @apply p-5;
 }
 
-.section-two-heading {
-  @apply font-bold text-3xl;
+/* Section Three */
+.home-section-three {
+  @apply flex items-center justify-between px-48 bg-white w-full h-[600px];
+}
+.shipping-van-image {
+  @apply flex items-center  w-[650px] h-[600px];
+}
+
+.btn-shop-now {
+  @apply px-5  hover:h-14 hover:w-40 text-white font-bold hover:text-lg h-12 w-36 bg-blue-300 rounded-md;
 }
 
 /* Product card */
@@ -78,11 +86,9 @@ body {
 .product-images {
   @apply flex items-center justify-center;
 }
-
 .product-title {
   @apply text-center text-sm overflow-hidden h-10;
 }
-
 .product-price {
   @apply p-2 font-bold text-center text-base;
 }
@@ -101,7 +107,9 @@ body {
 .error-message {
   @apply flex items-center flex-col justify-center p-96;
 }
-
+.returnLinkContainer {
+  @apply flex items-center justify-center h-11 w-32 m-5;
+}
 .returnLinkToHomepage {
-  @apply px-5 py-2 flex items-center bg-blue-300 rounded-3xl m-5 hover:text-lg hover:font-semibold hover:text-white;
+  @apply text-center h-10 w-28 hover:h-11 hover:w-32 cursor-pointer bg-blue-300 rounded-3xl m-0 shadow-lg hover:font-bold hover:text-white;
 }
