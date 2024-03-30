@@ -6,21 +6,34 @@ const NavBar = () => {
       <div className="navbar-container">
         <header className="title-block">
           <Link to="/">
-            <h1>FakeStore</h1>
+            <h1>URBAN STORE</h1>
           </Link>
         </header>
         <nav className="nav-block">
           <ul className="nav-list">
-            <Link to="shop/men">
+            <Link to="/shop/men">
               <li className="nav-list-item">Men</li>
             </Link>
-            <li className="nav-list-item">Women</li>
-            <li className="nav-list-item">Jewellery</li>
-            <li className="nav-list-item">Electronics</li>
-            <Link to="shop/allproducts">
+
+            <Link to="/shop/women">
+              <li className="nav-list-item">Women</li>
+            </Link>
+
+            <Link to="/shop/jewelery">
+              <li className="nav-list-item">Jewellery</li>
+            </Link>
+
+            <Link to="/shop/electronics">
+              <li className="nav-list-item">Electronics</li>
+            </Link>
+
+            <Link to="/shop/allproducts">
               <li className="nav-list-item">Shop</li>
             </Link>
-            <li className="nav-list-item">About Us</li>
+
+            <Link>
+              <li className="nav-list-item">About Us</li>
+            </Link>
           </ul>
         </nav>
         <div className="cart-icon">
