@@ -3,7 +3,7 @@ import ProductDataFetch from "../../services/ProductDataFetch";
 const Electronics = () => {
   const category = "electronics";
   return (
-    <div className="productPage">
+    <div className="productPageOne">
       <ProductDataFetch category={category} />
     </div>
   );
