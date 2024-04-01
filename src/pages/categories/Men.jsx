@@ -1,10 +1,10 @@
-import Products from "../../components/Products";
-const Men = () => {
+import ProductDataFetch from "../../services/ProductDataFetch";
+
+const Men = ({}) => {
+  const category = `men's clothing`;
   return (
-    <div>
-      <div className="productPage">
-        <Products />
-      </div>
+    <div className="productPage">
+      <ProductDataFetch category={category} />
     </div>
   );
 };
