@@ -1,14 +1,9 @@
-import Products from "../../components/Products";
-import NavBar from "../../components/NavBar";
-
+import ProductDataFetch from "../../services/ProductDataFetch";
 const AllProducts = () => {
   return (
-    <>
-      <NavBar />
-      <div className="shop-page-section-two">
-        <Products />
-      </div>
-    </>
+    <div className="productPage">
+      <ProductDataFetch />
+    </div>
   );
 };
 
