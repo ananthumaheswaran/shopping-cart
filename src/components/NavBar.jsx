@@ -31,9 +31,9 @@ const NavBar = () => {
               <li className="nav-list-item">Shop</li>
             </Link>
 
-            <Link>
+            {/* <Link>
               <li className="nav-list-item">About Us</li>
-            </Link>
+            </Link> */}
           </ul>
         </nav>
         <div className="cart-icon">
