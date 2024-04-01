@@ -4,6 +4,8 @@ import AllProducts from "./categories/AllProducts";
 import Men from "./categories/Men";
 import Jewellery from "./categories/Jewellery";
 import Electronics from "./categories/Electronics";
+import Women from "./categories/Women";
+import Footer from "../components/Footer";
 
 const Shop = () => {
   const { name } = useParams();
@@ -14,7 +16,22 @@ const Shop = () => {
         <NavBar />
       </div>
 
-      <div>{name === "men" ? <Men /> : <AllProducts />}</div>
+      <div>
+        {name === "men" ? (
+          <Men />
+        ) : name === "women" ? (
+          <Women />
+        ) : name === "jewelery" ? (
+          <Jewellery />
+        ) : name === "electronics" ? (
+          <Electronics />
+        ) : (
+          <AllProducts />
+        )}
+      </div>
+      <div>
+        <Footer />
+      </div>
     </>
   );
 };
