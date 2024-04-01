@@ -1,5 +1,12 @@
+import ProductDataFetch from "../../services/ProductDataFetch";
+
 const Jewellery = () => {
-  return <div>Jewellery</div>;
+  const category = "jewelery";
+  return (
+    <div className="productPage">
+      <ProductDataFetch category={category} />
+    </div>
+  );
 };
 
 export default Jewellery;
