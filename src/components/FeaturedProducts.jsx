@@ -1,10 +1,10 @@
-import ProductDataFetch from "../services/ProductDataFetch";
+import ProductData from "../fetch-data/ProductData";
 
 const FeaturedProducts = () => {
   const limit = "4";
   return (
     <div>
-      <ProductDataFetch limit={limit} />
+      <ProductData limit={limit} />
     </div>
   );
 };
