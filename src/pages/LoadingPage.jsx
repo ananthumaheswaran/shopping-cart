@@ -1,20 +1,34 @@
 const LoadingPage = () => {
+  const LoadingPageCard = () => {
+    return (
+      <div className="shadow-xl rounded-md m-10 px-10 py-3 flex items-center justify-center bg-white h-[350px] w-[260px]">
+        <div className="animate-pulse">
+          <div className="flex items-center justify-center rounded bg-gray-200 mx-10 mb-2 h-[200px] w-[200px]"></div>
+          <div className="flex items-center flex-col justify-center  py-3 text-sm">
+            <div className="w-44 flex items-center justify-center  h-2 mb-2 bg-slate-200 rounded"></div>
+            <div className="w-44 flex items-center justify-center  h-2 mt-1 bg-slate-200 rounded"></div>
+            <div className="w-20 h-2 rounded bg-slate-200d mt-3"></div>
+            <div className="text-xs w-28 h-2 bg-slate-200 rounded mt-3"></div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
-    <div className="loading-screen-icon">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        strokeWidth={1.5}
-        stroke="currentColor"
-        className="animate-spin w-6 h-6"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"
-        />
-      </svg>
+    <div className="flex items-center flex-col justify-center px-40">
+      <div className="flex items-center justify-center">
+        <LoadingPageCard />
+        <LoadingPageCard />
+        <LoadingPageCard />
+        <LoadingPageCard />
+      </div>
+      <div className="flex items-center justify-center">
+        <LoadingPageCard />
+        <LoadingPageCard />
+        <LoadingPageCard />
+        <LoadingPageCard />
+      </div>
     </div>
   );
 };
