@@ -7,8 +7,8 @@ const LoadingPage = () => {
           <div className="flex items-center flex-col justify-center  py-3 text-sm">
             <div className="w-44 flex items-center justify-center  h-2 mb-2 bg-slate-200 rounded"></div>
             <div className="w-44 flex items-center justify-center  h-2 mt-1 bg-slate-200 rounded"></div>
-            <div className="w-20 h-2 rounded bg-slate-200d mt-3"></div>
-            <div className="text-xs w-28 h-2 bg-slate-200 rounded mt-3"></div>
+            <div className="w-20 h-2 rounded bg-slate-200 mt-3"></div>
+            <div className="w-28 h-2 bg-slate-200 rounded mt-3"></div>
           </div>
         </div>
       </div>
@@ -16,14 +16,12 @@ const LoadingPage = () => {
   };
 
   return (
-    <div className="flex items-center flex-col justify-center px-40">
-      <div className="flex items-center justify-center">
+    <div className="flex items-center flex-col justify-center px-30">
+      <div className="flex items-center flex-wrap justify-center">
         <LoadingPageCard />
         <LoadingPageCard />
         <LoadingPageCard />
         <LoadingPageCard />
-      </div>
-      <div className="flex items-center justify-center">
         <LoadingPageCard />
         <LoadingPageCard />
         <LoadingPageCard />
